@@ -4,13 +4,13 @@ def caesar_cipher(text, shift):
     
     for char in text:  # Iterate over each character in the input text
         if char.isalpha():  # Check if the character is a letter (ignores spaces, numbers, etc.)
+            
             # Determine the ASCII base for the shift (uppercase 'A' or lowercase 'a')
             if char.isupper(): # Check if the character is Uppercase
                 shift_base = ord('A')
             else:  # check if the character is lowercase 
                 shift_base = ord('a')
 
-            
             # Apply the Caesar cipher formula:
             # - Convert the character to its ASCII number using ord()
             # - Shift it by the given amount
