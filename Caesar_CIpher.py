@@ -27,8 +27,8 @@ def decrypt_caesar_cipher(text, shift):
     return caesar_cipher(text, -shift)  # Call the encryption function with a negative shift
 
 # Usage
-text = {Enter the text you want to encrypt in string format}  # Original message eg: "Encryption"
-shift = {Enter the numeric shift value in string format}  # Shift value for encryption eg: "3"
+text = {Enter the text you want to encrypt in string format}  # Original message eg: "HELLO WORLD"
+shift = {Enter the numeric shift value   # Shift value for encryption eg: 3
 
 # Encrypt the text
 encrypted = caesar_cipher(text, shift)
